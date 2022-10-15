@@ -48,7 +48,6 @@ public:
     cout<<"\n\n\t\t\t\tTotal Balance is: $ "<<init_balance<<endl;
     }
 };
-
 // *************************int main**********************************************
 int main()
 {
@@ -169,7 +168,8 @@ int entry = 1;
                                 }
                             }
 
-                }
+
+
         system("cls");
                 cout<< "\n\n\t\t\t\t*--------------------------------------*"<<endl;  //printed receipt
                 cout<< "\t\t\t\t*           RECEIPT                    *"<< endl;
@@ -185,7 +185,10 @@ int entry = 1;
                 system ("pause");
                 system("cls");
 
-
+                }
+                else{
+                    system ("cls");
+                }
             break;
             case 2:
                 cout<< "\n\n\t\t\t\t*-----------------------------------------*"<<endl;
@@ -212,7 +215,7 @@ int entry = 1;
                                 }
                             }
 
-                }
+
         system("cls");
                 cout<< "\n\n\t\t\t\t*--------------------------------------*"<<endl;  //printed receipt
                 cout<< "\t\t\t\t*           RECEIPT                    *"<< endl;
@@ -228,6 +231,10 @@ int entry = 1;
 
                 system ("pause");
                 system("cls");
+                }
+                 else{
+                    system ("cls");
+                }
             break;
             case 3:
                 cout<< "\n\n\t\t\t\t*--------------------------------------*"<<endl;
@@ -264,10 +271,15 @@ int entry = 1;
                 cout<< "\t\t\t\t                                      "<< endl;
                 cout<< "\t\t\t\t     Available Balance: $"<<acc.getBalance ()<<endl;
                 cout<< "\t\t\t\t*--------------------------------------*"<<endl;
-                }
 
                 system ("pause");
                 system("cls");
+                }
+
+
+                 else{
+                    system ("cls");
+                }
             break;
             case 4:
                 cout<< "\n\n\t\t\t\t*--------------------------------------*"<<endl;
@@ -285,3 +297,5 @@ int entry = 1;
 
 return 0;
 }
+
+
